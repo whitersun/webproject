@@ -1,0 +1,675 @@
+<html lang="zh-TW">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="keywords" content="國立臺東大學, 東大, 樂活產業創新平台" />
+        <meta name="description" content="臺東大學樂活產業創新平台2017， 翼王資訊社建置維護">
+        <meta name="author" content="">
+
+        <title>- 首頁 - 臺東大學樂活產業創新平台2017</title>
+
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="../css/styles-chung.css">
+        <link rel="stylesheet" type="text/css" href="../css/styles-rieng-1.css">  
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css" />
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+
+
+        <!-- Scroll-reaveal -->
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>    
+
+        <!-- Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+            rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+            rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Merriweather' rel='stylesheet' type='text/css'>
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <script LANGUAGE="JavaScript">
+            // Nannette Thacker http://www.shiningstar.net
+            function confirmSubmit() {
+                var agree = confirm("確定要繼續？");
+                if (agree)
+                    return true;
+                else
+                    return false;
+            }
+        </script>
+
+
+        <!-- Google web fonts, https://design.google.com/icons/ -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Google web fonts, https://design.google.com/icons/ -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--a class="navbar-brand" href="#">NavBar</a-->
+                    </div>
+
+                    <!--Collapse-->
+                    <div class="collapse navbar-collapse">
+                        <links>
+                            <ul class="nav navbar-nav navbar-right">
+
+                                <!--會員登入/加入-->
+                                <li>
+                                    <a href="index.php?Act=120&SK=0&MK=0&PK=-10">會員登入/加入</a>
+                                </li>
+
+                                <!--首頁-->
+                                <li>
+                                    <a href="http://ecloud.ewang.com.tw" target="_blank">首頁</a>
+                                </li>
+
+                            </ul>
+                        </links>
+
+                        <links>
+                            <ul class="nav navbar-nav mr-auto">
+
+                                <!--logo-->
+                                <li>
+                                    <div class="d-b">
+                                        <logo>
+                                            <a class="nav-link waves-light" mdbWavesEffect href="../html/homepage.html">
+                                                <img src="../img/logo.png" id="logo" height="50">
+                                            </a>
+                                        </logo>
+                                    </div>
+                                </li>
+
+                                <!--體驗旅程-->
+                                <li>
+                                    <a class="nav-link waves-light" mdbWavesEffect href="../html/ex-travel.html" title='' class="">體驗旅程</a>
+                                </li>
+
+                                <!--Dropdown-->
+                                <li>
+                                    <a dropdownToggle mdbWavesEffect href="#" class="nav-link dropdown-toggle waves-light" data-toggle="dropdown" title='' data-hover="dropdown" mdbWavesEffect>
+                                        產品相關
+                                        <div class="caret"></div>
+                                    </a>
+
+                                    <!--dropdown menu-->
+                                    <ul class="dropdown-menu multi-level">
+
+                                        <!--相關檢驗-->
+                                        <li>
+                                            <a href="../html/p-1.html" title='' class="">相關檢驗</a>
+                                        </li>
+
+
+                                        <!--茶包-->
+                                        <li>
+                                            <a href=index.php?Act=120&MK=335&PK=813 title='' class="">茶包</a>
+                                        </li>
+
+
+                                        <!--茶葉-->
+                                        <li>
+                                            <a href=index.php?Act=120&MK=335&PK=811 title='' class="">茶葉</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <!--地圖-->
+                                <li>
+                                    <a href=index.php?Act=120&MK=120&PK=336 title='' class="">地圖位置</a>
+                                </li>
+
+                                <!--聯絡-->
+                                <li>
+                                    <a href=index.php?Act=120&MK=120&PK=815 title='' class="">聯絡我們</a>
+                                </li>
+
+                                <li>
+                                    <a href="../html/About-us.html" title='' class="">關於佳芳</a>
+                                </li>
+
+                            </ul>
+                        </links>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </mdb-navbar>
+        </header>
+
+        <button type="button" class="btn btn-4 btn-danger btn-rounded" data-toggle="collapse" data-target="#hidden-search">
+            <i class="glyphicon glyphicon-search">
+                <span class="search-word">
+                    搜尋
+                </span>
+            </i>
+        </button>
+
+        <!--Hidden Search-->
+        <div id="hidden-search" class="collapse">
+            <form class="form-inline form-inline-add" method="GET" action="#" style="z-index: 1">
+                <div class="form-group row" id="search">
+                    <input type="search" name="search" id="search-product" class="form-control" 
+                    placeholder="搜尋我們的資料與產品" style="width: 15.3em; padding-left: 40px;">
+                    <a href="#" class="move-btn">
+                        <i class="glyphicon glyphicon-search i-search"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <!--Big logo-->
+        <section style="padding-bottom: 30em;">
+            <div class="container-fluid load" style="margin-left: 10px; margin-right: 10px;">
+                <div class="row">
+                    <div class="col-md-12" style="padding-top: 16em;">
+                        <center>
+                            <a href="../html/homepage.html">
+                                <img id="img-moving" src="../img/logo.png" class="center-logo hoverable img-mobile">
+                            </a>
+                            <h1 class="title1">
+                                茶，每天而更新我們的娛樂
+                            </h1>
+
+                            <a class="scroll" href="#link-drop">
+                                <img height="28" width="28" src="https://www.thrivingparish.org/wp-content/uploads/2018/01/white-down-arrow-png-2.png">
+                            </a>
+                        </center>
+                    </div>
+                </div>
+        </section>
+
+        <!--Block 1-->
+        <section id="link-drop" class="scroll-1" style="padding-bottom: 15px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title1-area">
+                            <h4 class="big-title">
+                                品牌介紹
+                            </h4>
+
+                            <p class="animated zoomIn" data-animation="zoomIn" style="font-size: 15px;color: #fff">
+                                <b style="font-size: 20px; margin-bottom: 10px;letter-spacing: 0.5em">栽種有機茶，突破困境</b>，<br><br>
+                                <p class="content-in-block">
+                                    建國百年女神農 佳芳茶園 『陳麗雪』
+                                
+                                陳麗雪帶著堅毅的表情說「不改變，就是被淘汰」。身為媳婦，卻毅然將家族茶園轉型有機栽種，面臨親友的質欵與經濟壓力，
+                                不是一般人所能承受，
+                                但陳麗雪卻是硬生生的挺了過來。當別人還不認識有機，對有機不能認可時，她卻堅持做到底，為的是「家」，還有...
+                                </p>
+                            </p>
+                            <a href="../html/About-us.html#brand-story" id="brand-story" class="btn btn1 btn-outline-danger btn-rounded waves-effect">閱讀全文</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Block 2-->
+        <section id="link-drop" class="scroll-2" style="padding-bottom: 15px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title1-area" style="overflow: hidden;">
+                            <!--我的故事-->
+                            <div class="row" style="display: block; height: 32em">
+                                <h4 class="big-title">
+                                    主人故事
+                                </h4>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6" style="display: block; width: 54em">
+                                        <div class="col-sm-12">
+                                            <p class="animated zoomIn" data-animation="zoomIn" style="font-size: 15px;color: #fff">
+                                                <p class="content-in-block">
+                                                    臺東縣卑南鄉陳麗雪女士為專業茶農，
+                                                    具有學習與創新的精神，積極參與各項合作研發，並配合政府政策推行廠農合作、
+                                                    落實產銷履歷及安全用藥，推展優質安全茶業，開發茶葉新產品。經營有機茶園，
+                                                    作為推廣有機農業的示範，進而帶動明峰村朝向有機生態村發展。
+                                                    參加各種茶葉展示及有機農夫市集活動，行銷臺東茶葉，提高知名度，
+                                                    開拓茶葉多元行銷通路。推廣休閒農業，結合初鹿休閒農業區，朝向觀光茶園發展。                         
+                                                </p>
+                                            </p>
+                                            <a href="../html/About-us.html#farm-master" class="btn btn2 btn-outline-danger btn-rounded waves-effect">閱讀全文</a>                    
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4">
+                                        <a href="#">
+                                            <img class="img-1" class="img-1" src="https://i1.wp.com/taiwan-tea.polomi.taipei/wp-content/uploads/2018/03/about-3.jpg?w=2000">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--我得獎金-->
+                            <div class="row" style="display: block">
+                                <div class="col-md-6 col-sm-6">
+                                    <img id="img-2" class="img-2" src="http://www.taiwan-tea.net/wp-content/uploads/2018/02/brand-1.jpg">
+                                </div>
+
+                                <div class="title1-area col-md-6 col-sm-6" style="border-radius: 2%;width: 40em; left: -.5em;top: -1em">
+                                    <div class="col-sm-12">
+                                        <b class="small-title" style="letter-spacing: 0.5em">獲獎事蹟</b>
+                                        <p class="content-in-block" style="width: 32em">
+                                            <p>膺選89年優秀茶葉產製技術改良農戶</p>
+                                            <p>膺選90年模範勞工</p>
+                                            <p>榮獲99年台東縣農會優秀有機農業經營農戶</p>
+                                            <p>台東縣農會99年度創新農業經營管理獎</p>
+                                            <p>榮獲民國99年國家品質保證 金牌獎...</p>
+                                        </p>
+                                    </div>
+                                    <a class="btn btn3 btn-outline-danger waves-effect">
+                                        Read more...
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Block 3-->
+        <section id="link-drop" class="scroll-3" style="padding-bottom: 15px;">
+            <div class="row">
+                <div class="container product-box">
+                    <div class="col-md-12 col-sm-8">
+                        <h4 class="box-title">產品介紹 Product Introduction</h4>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view overlay product-box z-depth-1-half">
+                                <div class="view overlay">
+                                    <button type="button" class="no-pb waves-effect waves-light">
+                                        <img src="../img/照片/產品相關/台灣冷泡綠茶茶包.jpg" class="img-fluid img-responsive">
+                                    </button>
+                                </div>
+
+                                <div class="box-content">
+                                    <div class="box-small-title">
+                                        天然稜堡綠茶茶包
+                                    </div>
+
+                                    <div class="box-text">
+                                        <p>
+                                            單盒 / 30 包裝
+                                        </p>
+
+                                        <p style="background: red; color: #fff;">售價 $350</p>
+                                    </div>
+
+                                    <button type="button" class="btn btn-rounded btn-light-green waves-effect waves-light btn-md ml-4" onclick="product_1()">
+                                        詳細資料
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view overlay product-box z-depth-1-half">
+                                <div class="view overlay">
+                                    <button type="button" class="no-pb waves-effect waves-light">
+                                        <img src="../img/照片/產品相關/台東有機紅烏龍.jpg" class="img-fluid img-responsive">
+                                    </button>
+                                </div>
+
+                                <div class="box-content">
+                                    <div class="box-small-title">
+                                        台灣有機紅烏龍
+                                    </div>
+
+                                    <div class="box-text">
+                                        <p>
+                                            壹罐150公克±5公克 
+                                        </p>
+
+                                        <p style="background: red; color: #fff;">售價 $450</p>
+                                    </div>
+
+                                    <button type="button" class="btn btn-rounded btn-light-green waves-effect waves-light btn-md ml-4" onclick="product_2()">
+                                        詳細資料
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view overlay product-box z-depth-1-half">
+                                <div class="view overlay">
+                                    <button type="button" class="no-pb waves-effect waves-light">
+                                        <img src="../img/照片/產品相關/1蜜香紅茶包.jpg" class="img-fluid img-responsive">
+                                    </button>
+                                </div>
+
+                                <div class="box-content">
+                                    <div class="box-small-title">
+                                        蜜香紅茶有機茶
+                                    </div>
+
+                                    <div class="box-text">
+                                        <p>
+                                            75公克±5公克 
+                                        </p>
+
+                                        <p style="background: red; color: #fff;">售價$320</p>
+                                    </div>
+
+                                    <button type="button" class="btn btn-rounded btn-light-green waves-effect waves-light btn-md ml-4" onclick="product_3()">
+                                        詳細資料
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view overlay product-box z-depth-1-half">
+                                <div class="view overlay">
+                                    <button type="button" class="no-pb waves-effect waves-light">
+                                        <img src="../img/照片/產品相關/紅玉紅烏龍.jpg" class="img-fluid img-responsive" style="height: 13.2em; width: 101%;">
+                                    </button>
+                                </div>
+
+                                <div class="box-content">
+                                    <div class="box-small-title">
+                                        紅玉紅烏龍
+                                    </div>
+
+                                    <div class="box-text">
+                                        <p>
+                                            壹罐150公克±5公克 
+                                        </p>
+
+                                        <p style="background: red; color: #fff;">售價$650</p>
+                                    </div>
+
+                                    <button type="button" class="btn btn-rounded btn-light-green waves-effect waves-light btn-md ml-4" onclick="product_4()">
+                                        詳細資料
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Block 4-->
+        <section id="link-drop" class="scroll-4" style="padding-bottom: 15px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-8 product-box">
+
+                        <h4 class="box-title" style="margin-bottom: 25px;">佳芳茶園有關資料</h4>
+
+                        <!--Pic 1-->
+                        <div class="col-md-6 col-sm-4">
+                            <div class="view zoom overlay">
+                                <button class="no-pb waves-effect waves-light waves-button" data-toggle="modal" data-target="#image-1">
+                                    <img src="../img/照片/台大農場/投影片3.JPG" class="img-fluid img-responsive z-depth-1-half">
+                                </button>
+                            </div>
+                        </div>
+
+                        <!--Pic 2-->
+                        <div class="col-md-6 col-sm-4">
+                            <div class="view zoom overlay">
+                                <button type="button" class="no-pb btn btn-rounded waves-effect waves-light waves-button" data-toggle="modal" data-target="#image-2">
+                                    <img src="../img/照片/台大農場/投影片5.JPG" class="img-fluid img-responsive z-depth-1-half">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-8" style="transform: translateX(7%)">
+                            <div class="view zoom overlay">
+                                <button class="no-pb waves-effect waves-light waves-block">
+                                    <img src="../img/照片/台大農場/投影片8.JPG" class="img-fluid img-responsive waves-block waves-light z-depth-1-half">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-4" style="margin-bottom: 3em;">
+                            <div class="view zoom overlay">
+                                <button class="no-pb btn waves-button btn-rounded waves-light waves-effect" data-toggle="modal" data-target="#image-3">
+                                    <img src="../img/照片/台大農場/投影片6.JPG" class="img-fluid img-responsive z-depth-1-half">
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-4">
+                            <div class="view zoom overlay">
+                                <button class="btn waves-light waves-effect waves-button">
+                                    <img src="../img/照片/台大農場/投影片9.JPG" class="img-fluid img-responsive z-depth-1-half">
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container bgw"  style="margin-top: 10px; padding: 10px">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>總瀏覽人數： 2184，本頁瀏覽人數： 349</p>					
+                            <br>臺東大學樂活產業創新平台2017					
+                            <br>地址：950 臺東市中華路一段684號					
+                            <br>電話：(089)318855					
+                            <br>Copyright &copy; 臺東大學樂活產業創新平台2017 2016
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        
+        <!--mdbootstrap.js-->
+        <script type="javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+        
+        <script src="semantic/dist/semantic.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>        <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>-->
+        
+
+        <!--Turns Navbar to transparent background if user scrolled.-->
+        <script type="text/javascript">
+            //Turns Navbar to transparent background if user scrolled.
+            function checkNavPosition() {
+                var startYp = $('.navbar').height() * 0.2;
+                if ($(window).scrollTop() > startYp) {
+                    $('.navbar').removeClass("AtTop");
+                }
+                else {
+                    $('.navbar').addClass("AtTop");
+                }
+            }
+            //scroll smooth
+            var anchor = document.querySelector('a[href="#link-drop"]')
+            var target = document.getElementById('link-drop')
+            anchor.addEventListener('click', function (e) {
+            if (window.scrollTo) {
+                e.preventDefault()
+                window.scrollTo({'behavior': 'smooth', 'top': target.offsetTop})
+            }
+            })
+            //Only activate function after rendering.
+            if ($('.navbar').length > 0) {
+                $(window).on("scroll load resize", function () { checkNavPosition(); });
+            }
+
+            // jQuery for page scrolling feature - requires jQuery Easing plugin
+            $(function () {
+                $('.scroll').bind('click', function (event) {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 800);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
+
+        <!--back to top-->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span>回到最上頁</div>');
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() != 0) {
+                            $('#toTop').fadeIn();
+                        } else {
+                            $('#toTop').fadeOut();
+                        }
+                    }); 
+                $('#toTop').click(function(){
+                    $("html, body").animate({ scrollTop: 0 }, 600);
+                    return false;
+                });
+            });
+        </script>
+
+        <!--scroll-->
+        <script type="text/javascript">
+            window.sr = ScrollReveal();
+            sr.reveal('.nav',{
+                duration: 2000,
+                origin:'left',
+                mobile: true,
+            });
+
+            sr.reveal('img',{
+                duration: 2500,
+                origin:'bottom',
+                mobile: true,
+                useDelay: 'always'
+            });
+
+            sr.reveal('#img-moving',{
+                duration: 2500,
+                origin:'bottom',
+                mobile: true,
+                useDelay: 'always'
+            });
+
+            sr.reveal('.title1',{
+                duration: 3000,
+                origin:'bottom',
+                mobile: true,
+                useDelay: 'always',
+                reset: true
+            });
+
+            sr.reveal('.scroll-1',{
+                duration: 2000,
+                origin:'left',
+                mobile: true,
+                useDelay: 'always',
+                reset: true
+            });
+
+            sr.reveal('button',{
+                duration: 1500,
+                origin:'bottom',
+                mobile: true,
+                useDelay: 'always',
+                reset: true
+            });
+
+            sr.reveal('.scroll-2',{
+                duration: 2000,
+                origin:'right',
+                mobile: true,
+                useDelay: 'always',
+                reset: true
+            });
+        </script>
+
+        <!--Add class "load"-->
+        <script type="text/javascript">
+            $(function() {
+        
+                $("div").addClass("load");
+
+            });
+        </script>
+
+        <!-- Script to Activate the Carousel -->
+        <script type="text/javaScript">
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+            
+            $(function() {
+                
+                $("div").addClass("load");
+
+            });
+            
+        </script>
+
+        <script type="text/javascript">
+            function product_1(){
+                window.open('http://ecloud.ewang.com.tw/index.php?Act=120&SK=822&MK=335&PK=813');
+            }
+
+            function product_2(){
+                window.open('http://ecloud.ewang.com.tw/index.php?Act=120&SK=817&MK=335&PK=811');
+            }
+
+            function product_3(){
+                window.open('http://ecloud.ewang.com.tw/index.php?Act=120&SK=819&MK=335&PK=811');
+            }
+
+            function product_4(){
+                window.open('http://ecloud.ewang.com.tw/index.php?Act=120&SK=818&MK=335&PK=811');
+            }
+        </script>
+
+    </body>
+
+</html>
